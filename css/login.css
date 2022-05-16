@@ -4,7 +4,7 @@
 
 .main-container {
     display: flex;
-    margin: 5%;
+    margin: 3%;
     justify-content: center;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -13,7 +13,7 @@
 .main-container .form-container {
     background-color: #fff;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .register {
@@ -28,6 +28,7 @@
 }
 
 .form-container h1 {
+    color: gray;
     font-size: 2rem;
     font-weight: 700;
 }
@@ -45,6 +46,24 @@
 .form-container .login-with {
     margin-top: 20px;
     font-size: 1.5rem;
+}
+
+.form-container .social-media {
+    margin-top: 20px;
+}
+
+.form-container .social-media .fab {
+    padding: 20px 30px;
+    border: 1px solid grey;
+    margin-left: 18px;
+    border-radius: 5px;
+    color: rgb(33, 164, 245);
+    font-size: 1.8rem;
+}
+
+.form-container .social-media .fab:hover {
+    color: white;
+    background-color: rgb(33, 164, 245);
 }
 
 form input[type="email"],
@@ -70,14 +89,30 @@ button {
     border: none;
 }
 
+button:hover {
+    background-color: rgb(66, 63, 240);
+}
+
+.main-container .term {
+    margin: 20px;
+}
+
+.main-container .term p a {
+    text-decoration: none;
+}
+
+.main-container .term p a:hover {
+    color: rgb(33, 164, 245);
+}
+
 .main-container .image-container {
     background: url(../img/landscape.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 80vh;
-    width: 59vw;
+    height: 85vh;
+    width: 64vw;
     border-radius: 10px;
     justify-content: center;
     text-align: left;
